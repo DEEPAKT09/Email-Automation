@@ -1,11 +1,2 @@
 !pip install pandas
 !pip install secure-smtplib
-import sys
-import os
-import requests
-import pandas as pd
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from urllib.parse import urlparse
-import argparse
